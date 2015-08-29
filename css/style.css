@@ -1,38 +1,118 @@
-body {
-    background-color: #E0E0E0;
-}
-
-h1 {
-    text-align: center; 
-    font-family: baskerville;
-
-} 
-h4 {
+header {
     text-align: center;
-    font-family: helvetica;
-    font-size: 15px;
-}
-
-ul {
-    text-align: center;
-    padding:inherit;
-}
-li {
-    font-family: helvetica;
-    display: inline;
     padding: 10px;
+    font-family: Verdana;
+}
+
+header li {
+    display: inline;
+    padding: 5px;
+    font-weight: bold;
+    
+}
+
+header li a {
+    color: black;
+}
+    
+header hr {
+    width: 95%;
+    height: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    color: solid black;
+    background-color: black;
+    border: 0 none;
+}
+
+
+article hr {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+article {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+article h2 {
+    font-family: Verdana;
 }
 
 h2 {
-    font-family: baskerville;
+    font-family: Verdana;   
 }
-p {
-    font-family: helvetica;
+
+h3 {
+    font-family: Verdana;
 }
-img {
-    display: block;
+
+article img {
+    float: right;
+    padding: 10px;
+}
+
+
+div img {
+    padding: 10px;
     margin-left: auto;
     margin-right: auto;
-    border: 3px solid #000;
-    border-radius: 30px;
+    display: left;
+}
+
+
+div ul {
+    
+    font-family: Verdana;
+}
+
+ul {
+    list-style-type: square;
+}
+
+
+h5 {
+    font-size: 15px;
+}
+
+
+div hr {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+footer hr {
+    width: 95%;
+    height: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    color: solid black;
+    background-color: black;
+    border: 0 none;
+}
+
+
+footer ul {
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+}
+
+footer li {
+    display: inline;
+    font-family: Verdana;
+    color: black;
+    padding: 1px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer li a {
+    color: black;
+
 }
